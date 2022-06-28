@@ -9,4 +9,5 @@
 4. run PlugInstall in vim
 5. install ripgrep -> sudo apt-get install ripgrep
 6. https://github.com/jonmosco/kube-ps1
-7. SYMLINC FILES AND DIRS!!!
+7. install stow
+8. `cd repo`, `stow nvim`, `stow tmux`, `stow...`
