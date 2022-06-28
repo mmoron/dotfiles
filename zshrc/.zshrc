@@ -109,7 +109,7 @@ DEFAULT_USER="$(whoami)"
 alias k=kubectl
 source <(kubectl completion zsh)
 
-source "/opt/homebrew/opt/kube-ps1/share/kube-ps1.sh"
+source "$HOME/kube-ps1/kube-ps1.sh"
 PROMPT='$(kube_ps1)'$PROMPT
 
 SHOW_AWS_PROMPT=false
@@ -124,3 +124,7 @@ alias in="todo add +in"
 export GOPATH=$HOME/go
 export PATH=$PATH:/usr/local/go/bin:$GOPATH/bin
 export PATH=$PATH:$HOME/kind
+
+# Generated for envman. Do not edit.
+[ -s "$HOME/.config/envman/load.sh" ] && source "$HOME/.config/envman/load.sh"
+
