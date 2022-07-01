@@ -1,5 +1,7 @@
 require('lspconfig').tsserver.setup{}
-require('nvim-lsp-installer').setup {}
+require('nvim-lsp-installer').setup {
+    automatic_installation = true
+}
 
 local opts = { noremap=true, silent=true }
 

@@ -52,8 +52,8 @@ Plug 'williamboman/nvim-lsp-installer'
 
 call plug#end()
 
-lua require('nvim-treesitter.configs').setup { highlight = { enable = true }, indent = { enable = true }, incremental_selection = { enable = true }, textobjects = { enable = true }}
 lua require('lsp')
+lua require('treesitter')
 
 colorscheme gruvbox
 
